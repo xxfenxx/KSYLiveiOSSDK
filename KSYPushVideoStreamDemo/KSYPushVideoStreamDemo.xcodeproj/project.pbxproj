@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FAEF191B4E1C00003D1661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEF181B4E1C00003D1661 /* main.m */; };
+		13FAEF1C1B4E1C00003D1661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEF1B1B4E1C00003D1661 /* AppDelegate.m */; };
+		13FAEF1F1B4E1C00003D1661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEF1E1B4E1C00003D1661 /* ViewController.m */; };
+		13FAEF221B4E1C00003D1661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FAEF201B4E1C00003D1661 /* Main.storyboard */; };
+		13FAEF241B4E1C00003D1661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FAEF231B4E1C00003D1661 /* Images.xcassets */; };
+		13FAEF271B4E1C00003D1661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FAEF251B4E1C00003D1661 /* LaunchScreen.xib */; };
+		13FAEF331B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEF321B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.m */; };
+		13FAF0081B4E4770003D1661 /* libKSYPushVideoStream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FAF0051B4E4770003D1661 /* libKSYPushVideoStream.a */; };
+		13FAF0121B4E4FC2003D1661 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FAF0111B4E4FC2003D1661 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FAEF2D1B4E1C00003D1661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FAEF0B1B4E1C00003D1661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FAEF121B4E1C00003D1661;
+			remoteInfo = KSYPushVideoStreamDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FAEF131B4E1C00003D1661 /* KSYPushVideoStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSYPushVideoStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FAEF171B4E1C00003D1661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FAEF181B4E1C00003D1661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13FAEF1A1B4E1C00003D1661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13FAEF1B1B4E1C00003D1661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13FAEF1D1B4E1C00003D1661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13FAEF1E1B4E1C00003D1661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEF211B4E1C00003D1661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13FAEF231B4E1C00003D1661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13FAEF261B4E1C00003D1661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13FAEF2C1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYPushVideoStreamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FAEF311B4E1C00003D1661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FAEF321B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYPushVideoStreamDemoTests.m; sourceTree = "<group>"; };
+		13FAF0051B4E4770003D1661 /* libKSYPushVideoStream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKSYPushVideoStream.a; sourceTree = "<group>"; };
+		13FAF0111B4E4FC2003D1661 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		13FAF0181B4F7B02003D1661 /* KSYPushVideoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYPushVideoStream.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FAEF101B4E1C00003D1661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAF0121B4E4FC2003D1661 /* AssetsLibrary.framework in Frameworks */,
+				13FAF0081B4E4770003D1661 /* libKSYPushVideoStream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FAEF291B4E1C00003D1661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FAEF0A1B4E1C00003D1661 = {
+			isa = PBXGroup;
+			children = (
+				13FAF0171B4E52D1003D1661 /* Framework */,
+				13FAEFFF1B4E4770003D1661 /* KSYVideoStream */,
+				13FAEF151B4E1C00003D1661 /* KSYPushVideoStreamDemo */,
+				13FAEF2F1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests */,
+				13FAEF141B4E1C00003D1661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13FAEF141B4E1C00003D1661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF131B4E1C00003D1661 /* KSYPushVideoStreamDemo.app */,
+				13FAEF2C1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FAEF151B4E1C00003D1661 /* KSYPushVideoStreamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF1A1B4E1C00003D1661 /* AppDelegate.h */,
+				13FAEF1B1B4E1C00003D1661 /* AppDelegate.m */,
+				13FAEF1D1B4E1C00003D1661 /* ViewController.h */,
+				13FAEF1E1B4E1C00003D1661 /* ViewController.m */,
+				13FAEF201B4E1C00003D1661 /* Main.storyboard */,
+				13FAEF231B4E1C00003D1661 /* Images.xcassets */,
+				13FAEF251B4E1C00003D1661 /* LaunchScreen.xib */,
+				13FAEF161B4E1C00003D1661 /* Supporting Files */,
+			);
+			path = KSYPushVideoStreamDemo;
+			sourceTree = "<group>";
+		};
+		13FAEF161B4E1C00003D1661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF171B4E1C00003D1661 /* Info.plist */,
+				13FAEF181B4E1C00003D1661 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13FAEF2F1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF321B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.m */,
+				13FAEF301B4E1C00003D1661 /* Supporting Files */,
+			);
+			path = KSYPushVideoStreamDemoTests;
+			sourceTree = "<group>";
+		};
+		13FAEF301B4E1C00003D1661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF311B4E1C00003D1661 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13FAEFFF1B4E4770003D1661 /* KSYVideoStream */ = {
+			isa = PBXGroup;
+			children = (
+				13FAF0181B4F7B02003D1661 /* KSYPushVideoStream.h */,
+				13FAF0051B4E4770003D1661 /* libKSYPushVideoStream.a */,
+			);
+			path = KSYVideoStream;
+			sourceTree = "<group>";
+		};
+		13FAF0171B4E52D1003D1661 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				13FAF0111B4E4FC2003D1661 /* AssetsLibrary.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13FAEF121B4E1C00003D1661 /* KSYPushVideoStreamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FAEF361B4E1C00003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStreamDemo" */;
+			buildPhases = (
+				13FAEF0F1B4E1C00003D1661 /* Sources */,
+				13FAEF101B4E1C00003D1661 /* Frameworks */,
+				13FAEF111B4E1C00003D1661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSYPushVideoStreamDemo;
+			productName = KSYPushVideoStreamDemo;
+			productReference = 13FAEF131B4E1C00003D1661 /* KSYPushVideoStreamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13FAEF2B1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FAEF391B4E1C00003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStreamDemoTests" */;
+			buildPhases = (
+				13FAEF281B4E1C00003D1661 /* Sources */,
+				13FAEF291B4E1C00003D1661 /* Frameworks */,
+				13FAEF2A1B4E1C00003D1661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FAEF2E1B4E1C00003D1661 /* PBXTargetDependency */,
+			);
+			name = KSYPushVideoStreamDemoTests;
+			productName = KSYPushVideoStreamDemoTests;
+			productReference = 13FAEF2C1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FAEF0B1B4E1C00003D1661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Blues;
+				TargetAttributes = {
+					13FAEF121B4E1C00003D1661 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					13FAEF2B1B4E1C00003D1661 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 13FAEF121B4E1C00003D1661;
+					};
+				};
+			};
+			buildConfigurationList = 13FAEF0E1B4E1C00003D1661 /* Build configuration list for PBXProject "KSYPushVideoStreamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13FAEF0A1B4E1C00003D1661;
+			productRefGroup = 13FAEF141B4E1C00003D1661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FAEF121B4E1C00003D1661 /* KSYPushVideoStreamDemo */,
+				13FAEF2B1B4E1C00003D1661 /* KSYPushVideoStreamDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FAEF111B4E1C00003D1661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAEF221B4E1C00003D1661 /* Main.storyboard in Resources */,
+				13FAEF271B4E1C00003D1661 /* LaunchScreen.xib in Resources */,
+				13FAEF241B4E1C00003D1661 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FAEF2A1B4E1C00003D1661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FAEF0F1B4E1C00003D1661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAEF1F1B4E1C00003D1661 /* ViewController.m in Sources */,
+				13FAEF1C1B4E1C00003D1661 /* AppDelegate.m in Sources */,
+				13FAEF191B4E1C00003D1661 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FAEF281B4E1C00003D1661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAEF331B4E1C00003D1661 /* KSYPushVideoStreamDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FAEF2E1B4E1C00003D1661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FAEF121B4E1C00003D1661 /* KSYPushVideoStreamDemo */;
+			targetProxy = 13FAEF2D1B4E1C00003D1661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13FAEF201B4E1C00003D1661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FAEF211B4E1C00003D1661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13FAEF251B4E1C00003D1661 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FAEF261B4E1C00003D1661 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13FAEF341B4E1C00003D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13FAEF351B4E1C00003D1661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13FAEF371B4E1C00003D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Zhou (V43246M398)";
+				INFOPLIST_FILE = KSYPushVideoStreamDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KSYVideoStream",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13FAEF381B4E1C00003D1661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Zhou (V43246M398)";
+				INFOPLIST_FILE = KSYPushVideoStreamDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KSYVideoStream",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13FAEF3A1B4E1C00003D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSYPushVideoStreamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYPushVideoStreamDemo.app/KSYPushVideoStreamDemo";
+			};
+			name = Debug;
+		};
+		13FAEF3B1B4E1C00003D1661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSYPushVideoStreamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYPushVideoStreamDemo.app/KSYPushVideoStreamDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FAEF0E1B4E1C00003D1661 /* Build configuration list for PBXProject "KSYPushVideoStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FAEF341B4E1C00003D1661 /* Debug */,
+				13FAEF351B4E1C00003D1661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FAEF361B4E1C00003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FAEF371B4E1C00003D1661 /* Debug */,
+				13FAEF381B4E1C00003D1661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FAEF391B4E1C00003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStreamDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FAEF3A1B4E1C00003D1661 /* Debug */,
+				13FAEF3B1B4E1C00003D1661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13FAEF0B1B4E1C00003D1661 /* Project object */;
+}

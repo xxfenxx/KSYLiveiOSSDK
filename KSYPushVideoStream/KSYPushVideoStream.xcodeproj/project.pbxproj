@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FAEF491B4E1C1D003D1661 /* KSYPushVideoStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13FAEF481B4E1C1D003D1661 /* KSYPushVideoStream.h */; };
+		13FAEF4B1B4E1C1D003D1661 /* KSYPushVideoStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEF4A1B4E1C1D003D1661 /* KSYPushVideoStream.m */; };
+		13FAEF511B4E1C1D003D1661 /* libKSYPushVideoStream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FAEF451B4E1C1D003D1661 /* libKSYPushVideoStream.a */; };
+		13FAEFD11B4E22CC003D1661 /* KSYFLVAudioTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFA51B4E22CC003D1661 /* KSYFLVAudioTag.m */; };
+		13FAEFD21B4E22CC003D1661 /* KSYFLVHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFA71B4E22CC003D1661 /* KSYFLVHeader.m */; };
+		13FAEFD31B4E22CC003D1661 /* KSYFLVMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFA91B4E22CC003D1661 /* KSYFLVMetadata.m */; };
+		13FAEFD41B4E22CC003D1661 /* KSYFLVTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFAB1B4E22CC003D1661 /* KSYFLVTag.m */; };
+		13FAEFD51B4E22CC003D1661 /* KSYFLVVideoTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFAD1B4E22CC003D1661 /* KSYFLVVideoTag.m */; };
+		13FAEFD61B4E22CC003D1661 /* KSYFLVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFAF1B4E22CC003D1661 /* KSYFLVWriter.m */; };
+		13FAEFD71B4E22CC003D1661 /* KSYAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFB11B4E22CC003D1661 /* KSYAudioEncoder.m */; };
+		13FAEFD81B4E22CC003D1661 /* KSYAVAssetEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFB31B4E22CC003D1661 /* KSYAVAssetEncoder.m */; };
+		13FAEFD91B4E22CC003D1661 /* KSYBytesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFB51B4E22CC003D1661 /* KSYBytesData.m */; };
+		13FAEFDA1B4E22CC003D1661 /* KSYPendingSampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFB71B4E22CC003D1661 /* KSYPendingSampleBuffer.m */; };
+		13FAEFDB1B4E22CC003D1661 /* KSYVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFB91B4E22CC003D1661 /* KSYVideoEncoder.m */; };
+		13FAEFDC1B4E22CC003D1661 /* KSYVideoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFBC1B4E22CC003D1661 /* KSYVideoPicker.m */; };
+		13FAEFDD1B4E22CC003D1661 /* KSYMP4Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFBE1B4E22CC003D1661 /* KSYMP4Atom.m */; };
+		13FAEFDE1B4E22CC003D1661 /* KSYMP4Descriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFC01B4E22CC003D1661 /* KSYMP4Descriptor.m */; };
+		13FAEFDF1B4E22CC003D1661 /* KSYMP4Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFC21B4E22CC003D1661 /* KSYMP4Frame.m */; };
+		13FAEFE01B4E22CC003D1661 /* KSYMP4Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFC41B4E22CC003D1661 /* KSYMP4Reader.m */; };
+		13FAEFE11B4E22CC003D1661 /* KSYMP4Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFC61B4E22CC003D1661 /* KSYMP4Record.m */; };
+		13FAEFE21B4E22CC003D1661 /* NALUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFC81B4E22CC003D1661 /* NALUnit.m */; };
+		13FAEFE31B4E22CC003D1661 /* NSData+Bytes.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFCA1B4E22CC003D1661 /* NSData+Bytes.m */; };
+		13FAEFE41B4E22CC003D1661 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFCC1B4E22CC003D1661 /* NSData+Hex.m */; };
+		13FAEFE51B4E22CC003D1661 /* NSMutableData+AMF.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFCE1B4E22CC003D1661 /* NSMutableData+AMF.m */; };
+		13FAEFE61B4E22CC003D1661 /* NSMutableData+Bytes.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFD01B4E22CC003D1661 /* NSMutableData+Bytes.m */; };
+		13FAEFFD1B4E28A5003D1661 /* ksyrtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 13FAEFF91B4E28A5003D1661 /* ksyrtmp.c */; };
+		13FAEFFE1B4E28A5003D1661 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FAEFFC1B4E28A5003D1661 /* librtmp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FAEF521B4E1C1D003D1661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FAEF3D1B4E1C1D003D1661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FAEF441B4E1C1D003D1661;
+			remoteInfo = KSYPushVideoStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13FAEF431B4E1C1D003D1661 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				13FAEF491B4E1C1D003D1661 /* KSYPushVideoStream.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13FAEF451B4E1C1D003D1661 /* libKSYPushVideoStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKSYPushVideoStream.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FAEF481B4E1C1D003D1661 /* KSYPushVideoStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYPushVideoStream.h; sourceTree = "<group>"; };
+		13FAEF4A1B4E1C1D003D1661 /* KSYPushVideoStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYPushVideoStream.m; sourceTree = "<group>"; };
+		13FAEF501B4E1C1D003D1661 /* KSYPushVideoStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYPushVideoStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FAEF561B4E1C1D003D1661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FAEFA41B4E22CC003D1661 /* KSYFLVAudioTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYFLVAudioTag.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFA51B4E22CC003D1661 /* KSYFLVAudioTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYFLVAudioTag.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFA61B4E22CC003D1661 /* KSYFLVHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYFLVHeader.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFA71B4E22CC003D1661 /* KSYFLVHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYFLVHeader.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFA81B4E22CC003D1661 /* KSYFLVMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYFLVMetadata.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFA91B4E22CC003D1661 /* KSYFLVMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYFLVMetadata.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFAA1B4E22CC003D1661 /* KSYFLVTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYFLVTag.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFAB1B4E22CC003D1661 /* KSYFLVTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYFLVTag.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFAC1B4E22CC003D1661 /* KSYFLVVideoTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYFLVVideoTag.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFAD1B4E22CC003D1661 /* KSYFLVVideoTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYFLVVideoTag.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFAE1B4E22CC003D1661 /* KSYFLVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYFLVWriter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFAF1B4E22CC003D1661 /* KSYFLVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYFLVWriter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFB01B4E22CC003D1661 /* KSYAudioEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYAudioEncoder.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFB11B4E22CC003D1661 /* KSYAudioEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYAudioEncoder.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFB21B4E22CC003D1661 /* KSYAVAssetEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYAVAssetEncoder.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFB31B4E22CC003D1661 /* KSYAVAssetEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYAVAssetEncoder.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFB41B4E22CC003D1661 /* KSYBytesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYBytesData.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFB51B4E22CC003D1661 /* KSYBytesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYBytesData.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFB61B4E22CC003D1661 /* KSYPendingSampleBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYPendingSampleBuffer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFB71B4E22CC003D1661 /* KSYPendingSampleBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYPendingSampleBuffer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFB81B4E22CC003D1661 /* KSYVideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYVideoEncoder.h; sourceTree = "<group>"; };
+		13FAEFB91B4E22CC003D1661 /* KSYVideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYVideoEncoder.m; sourceTree = "<group>"; };
+		13FAEFBA1B4E22CC003D1661 /* IFVideoPicker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFVideoPicker-Prefix.pch"; sourceTree = "<group>"; };
+		13FAEFBB1B4E22CC003D1661 /* KSYVideoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KSYVideoPicker.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		13FAEFBC1B4E22CC003D1661 /* KSYVideoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KSYVideoPicker.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		13FAEFBD1B4E22CC003D1661 /* KSYMP4Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMP4Atom.h; sourceTree = "<group>"; };
+		13FAEFBE1B4E22CC003D1661 /* KSYMP4Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYMP4Atom.m; sourceTree = "<group>"; };
+		13FAEFBF1B4E22CC003D1661 /* KSYMP4Descriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMP4Descriptor.h; sourceTree = "<group>"; };
+		13FAEFC01B4E22CC003D1661 /* KSYMP4Descriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYMP4Descriptor.m; sourceTree = "<group>"; };
+		13FAEFC11B4E22CC003D1661 /* KSYMP4Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMP4Frame.h; sourceTree = "<group>"; };
+		13FAEFC21B4E22CC003D1661 /* KSYMP4Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYMP4Frame.m; sourceTree = "<group>"; };
+		13FAEFC31B4E22CC003D1661 /* KSYMP4Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMP4Reader.h; sourceTree = "<group>"; };
+		13FAEFC41B4E22CC003D1661 /* KSYMP4Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYMP4Reader.m; sourceTree = "<group>"; };
+		13FAEFC51B4E22CC003D1661 /* KSYMP4Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMP4Record.h; sourceTree = "<group>"; };
+		13FAEFC61B4E22CC003D1661 /* KSYMP4Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYMP4Record.m; sourceTree = "<group>"; };
+		13FAEFC71B4E22CC003D1661 /* NALUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALUnit.h; sourceTree = "<group>"; };
+		13FAEFC81B4E22CC003D1661 /* NALUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NALUnit.m; sourceTree = "<group>"; };
+		13FAEFC91B4E22CC003D1661 /* NSData+Bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bytes.h"; sourceTree = "<group>"; };
+		13FAEFCA1B4E22CC003D1661 /* NSData+Bytes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bytes.m"; sourceTree = "<group>"; };
+		13FAEFCB1B4E22CC003D1661 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		13FAEFCC1B4E22CC003D1661 /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		13FAEFCD1B4E22CC003D1661 /* NSMutableData+AMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+AMF.h"; sourceTree = "<group>"; };
+		13FAEFCE1B4E22CC003D1661 /* NSMutableData+AMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+AMF.m"; sourceTree = "<group>"; };
+		13FAEFCF1B4E22CC003D1661 /* NSMutableData+Bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Bytes.h"; sourceTree = "<group>"; };
+		13FAEFD01B4E22CC003D1661 /* NSMutableData+Bytes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Bytes.m"; sourceTree = "<group>"; };
+		13FAEFF51B4E28A5003D1661 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		13FAEFF61B4E28A5003D1661 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		13FAEFF71B4E28A5003D1661 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		13FAEFF81B4E28A5003D1661 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		13FAEFF91B4E28A5003D1661 /* ksyrtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksyrtmp.c; sourceTree = "<group>"; };
+		13FAEFFA1B4E28A5003D1661 /* ksyrtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksyrtmp.h; sourceTree = "<group>"; };
+		13FAEFFC1B4E28A5003D1661 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FAEF421B4E1C1D003D1661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAEFFE1B4E28A5003D1661 /* librtmp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FAEF4D1B4E1C1D003D1661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAEF511B4E1C1D003D1661 /* libKSYPushVideoStream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FAEF3C1B4E1C1D003D1661 = {
+			isa = PBXGroup;
+			children = (
+				13FAEFF31B4E28A5003D1661 /* include */,
+				13FAEFF91B4E28A5003D1661 /* ksyrtmp.c */,
+				13FAEFFA1B4E28A5003D1661 /* ksyrtmp.h */,
+				13FAEFFB1B4E28A5003D1661 /* lib */,
+				13FAEFA31B4E22CC003D1661 /* KSYVideoPicker */,
+				13FAEF471B4E1C1D003D1661 /* KSYPushVideoStream */,
+				13FAEF541B4E1C1D003D1661 /* KSYPushVideoStreamTests */,
+				13FAEF461B4E1C1D003D1661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13FAEF461B4E1C1D003D1661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF451B4E1C1D003D1661 /* libKSYPushVideoStream.a */,
+				13FAEF501B4E1C1D003D1661 /* KSYPushVideoStreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FAEF471B4E1C1D003D1661 /* KSYPushVideoStream */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF481B4E1C1D003D1661 /* KSYPushVideoStream.h */,
+				13FAEF4A1B4E1C1D003D1661 /* KSYPushVideoStream.m */,
+			);
+			path = KSYPushVideoStream;
+			sourceTree = "<group>";
+		};
+		13FAEF541B4E1C1D003D1661 /* KSYPushVideoStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF551B4E1C1D003D1661 /* Supporting Files */,
+			);
+			path = KSYPushVideoStreamTests;
+			sourceTree = "<group>";
+		};
+		13FAEF551B4E1C1D003D1661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEF561B4E1C1D003D1661 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13FAEFA31B4E22CC003D1661 /* KSYVideoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEFA41B4E22CC003D1661 /* KSYFLVAudioTag.h */,
+				13FAEFA51B4E22CC003D1661 /* KSYFLVAudioTag.m */,
+				13FAEFA61B4E22CC003D1661 /* KSYFLVHeader.h */,
+				13FAEFA71B4E22CC003D1661 /* KSYFLVHeader.m */,
+				13FAEFA81B4E22CC003D1661 /* KSYFLVMetadata.h */,
+				13FAEFA91B4E22CC003D1661 /* KSYFLVMetadata.m */,
+				13FAEFAA1B4E22CC003D1661 /* KSYFLVTag.h */,
+				13FAEFAB1B4E22CC003D1661 /* KSYFLVTag.m */,
+				13FAEFAC1B4E22CC003D1661 /* KSYFLVVideoTag.h */,
+				13FAEFAD1B4E22CC003D1661 /* KSYFLVVideoTag.m */,
+				13FAEFAE1B4E22CC003D1661 /* KSYFLVWriter.h */,
+				13FAEFAF1B4E22CC003D1661 /* KSYFLVWriter.m */,
+				13FAEFB01B4E22CC003D1661 /* KSYAudioEncoder.h */,
+				13FAEFB11B4E22CC003D1661 /* KSYAudioEncoder.m */,
+				13FAEFB21B4E22CC003D1661 /* KSYAVAssetEncoder.h */,
+				13FAEFB31B4E22CC003D1661 /* KSYAVAssetEncoder.m */,
+				13FAEFB41B4E22CC003D1661 /* KSYBytesData.h */,
+				13FAEFB51B4E22CC003D1661 /* KSYBytesData.m */,
+				13FAEFB61B4E22CC003D1661 /* KSYPendingSampleBuffer.h */,
+				13FAEFB71B4E22CC003D1661 /* KSYPendingSampleBuffer.m */,
+				13FAEFB81B4E22CC003D1661 /* KSYVideoEncoder.h */,
+				13FAEFB91B4E22CC003D1661 /* KSYVideoEncoder.m */,
+				13FAEFBA1B4E22CC003D1661 /* IFVideoPicker-Prefix.pch */,
+				13FAEFBB1B4E22CC003D1661 /* KSYVideoPicker.h */,
+				13FAEFBC1B4E22CC003D1661 /* KSYVideoPicker.m */,
+				13FAEFBD1B4E22CC003D1661 /* KSYMP4Atom.h */,
+				13FAEFBE1B4E22CC003D1661 /* KSYMP4Atom.m */,
+				13FAEFBF1B4E22CC003D1661 /* KSYMP4Descriptor.h */,
+				13FAEFC01B4E22CC003D1661 /* KSYMP4Descriptor.m */,
+				13FAEFC11B4E22CC003D1661 /* KSYMP4Frame.h */,
+				13FAEFC21B4E22CC003D1661 /* KSYMP4Frame.m */,
+				13FAEFC31B4E22CC003D1661 /* KSYMP4Reader.h */,
+				13FAEFC41B4E22CC003D1661 /* KSYMP4Reader.m */,
+				13FAEFC51B4E22CC003D1661 /* KSYMP4Record.h */,
+				13FAEFC61B4E22CC003D1661 /* KSYMP4Record.m */,
+				13FAEFC71B4E22CC003D1661 /* NALUnit.h */,
+				13FAEFC81B4E22CC003D1661 /* NALUnit.m */,
+				13FAEFC91B4E22CC003D1661 /* NSData+Bytes.h */,
+				13FAEFCA1B4E22CC003D1661 /* NSData+Bytes.m */,
+				13FAEFCB1B4E22CC003D1661 /* NSData+Hex.h */,
+				13FAEFCC1B4E22CC003D1661 /* NSData+Hex.m */,
+				13FAEFCD1B4E22CC003D1661 /* NSMutableData+AMF.h */,
+				13FAEFCE1B4E22CC003D1661 /* NSMutableData+AMF.m */,
+				13FAEFCF1B4E22CC003D1661 /* NSMutableData+Bytes.h */,
+				13FAEFD01B4E22CC003D1661 /* NSMutableData+Bytes.m */,
+			);
+			path = KSYVideoPicker;
+			sourceTree = "<group>";
+		};
+		13FAEFF31B4E28A5003D1661 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEFF41B4E28A5003D1661 /* librtmp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		13FAEFF41B4E28A5003D1661 /* librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEFF51B4E28A5003D1661 /* amf.h */,
+				13FAEFF61B4E28A5003D1661 /* http.h */,
+				13FAEFF71B4E28A5003D1661 /* log.h */,
+				13FAEFF81B4E28A5003D1661 /* rtmp.h */,
+			);
+			path = librtmp;
+			sourceTree = "<group>";
+		};
+		13FAEFFB1B4E28A5003D1661 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				13FAEFFC1B4E28A5003D1661 /* librtmp.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13FAEF441B4E1C1D003D1661 /* KSYPushVideoStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FAEF591B4E1C1D003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStream" */;
+			buildPhases = (
+				13FAEF411B4E1C1D003D1661 /* Sources */,
+				13FAEF421B4E1C1D003D1661 /* Frameworks */,
+				13FAEF431B4E1C1D003D1661 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSYPushVideoStream;
+			productName = KSYPushVideoStream;
+			productReference = 13FAEF451B4E1C1D003D1661 /* libKSYPushVideoStream.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		13FAEF4F1B4E1C1D003D1661 /* KSYPushVideoStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FAEF5C1B4E1C1D003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStreamTests" */;
+			buildPhases = (
+				13FAEF4C1B4E1C1D003D1661 /* Sources */,
+				13FAEF4D1B4E1C1D003D1661 /* Frameworks */,
+				13FAEF4E1B4E1C1D003D1661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FAEF531B4E1C1D003D1661 /* PBXTargetDependency */,
+			);
+			name = KSYPushVideoStreamTests;
+			productName = KSYPushVideoStreamTests;
+			productReference = 13FAEF501B4E1C1D003D1661 /* KSYPushVideoStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FAEF3D1B4E1C1D003D1661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Blues;
+				TargetAttributes = {
+					13FAEF441B4E1C1D003D1661 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					13FAEF4F1B4E1C1D003D1661 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 13FAEF401B4E1C1D003D1661 /* Build configuration list for PBXProject "KSYPushVideoStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13FAEF3C1B4E1C1D003D1661;
+			productRefGroup = 13FAEF461B4E1C1D003D1661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FAEF441B4E1C1D003D1661 /* KSYPushVideoStream */,
+				13FAEF4F1B4E1C1D003D1661 /* KSYPushVideoStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FAEF4E1B4E1C1D003D1661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FAEF411B4E1C1D003D1661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FAEFDD1B4E22CC003D1661 /* KSYMP4Atom.m in Sources */,
+				13FAEFDF1B4E22CC003D1661 /* KSYMP4Frame.m in Sources */,
+				13FAEFD91B4E22CC003D1661 /* KSYBytesData.m in Sources */,
+				13FAEFD21B4E22CC003D1661 /* KSYFLVHeader.m in Sources */,
+				13FAEFE51B4E22CC003D1661 /* NSMutableData+AMF.m in Sources */,
+				13FAEFE21B4E22CC003D1661 /* NALUnit.m in Sources */,
+				13FAEFD31B4E22CC003D1661 /* KSYFLVMetadata.m in Sources */,
+				13FAEFD41B4E22CC003D1661 /* KSYFLVTag.m in Sources */,
+				13FAEFD11B4E22CC003D1661 /* KSYFLVAudioTag.m in Sources */,
+				13FAEFD71B4E22CC003D1661 /* KSYAudioEncoder.m in Sources */,
+				13FAEFD61B4E22CC003D1661 /* KSYFLVWriter.m in Sources */,
+				13FAEFE31B4E22CC003D1661 /* NSData+Bytes.m in Sources */,
+				13FAEFFD1B4E28A5003D1661 /* ksyrtmp.c in Sources */,
+				13FAEFE01B4E22CC003D1661 /* KSYMP4Reader.m in Sources */,
+				13FAEFE61B4E22CC003D1661 /* NSMutableData+Bytes.m in Sources */,
+				13FAEFDC1B4E22CC003D1661 /* KSYVideoPicker.m in Sources */,
+				13FAEF4B1B4E1C1D003D1661 /* KSYPushVideoStream.m in Sources */,
+				13FAEFD51B4E22CC003D1661 /* KSYFLVVideoTag.m in Sources */,
+				13FAEFE41B4E22CC003D1661 /* NSData+Hex.m in Sources */,
+				13FAEFDE1B4E22CC003D1661 /* KSYMP4Descriptor.m in Sources */,
+				13FAEFE11B4E22CC003D1661 /* KSYMP4Record.m in Sources */,
+				13FAEFDB1B4E22CC003D1661 /* KSYVideoEncoder.m in Sources */,
+				13FAEFDA1B4E22CC003D1661 /* KSYPendingSampleBuffer.m in Sources */,
+				13FAEFD81B4E22CC003D1661 /* KSYAVAssetEncoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FAEF4C1B4E1C1D003D1661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FAEF531B4E1C1D003D1661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FAEF441B4E1C1D003D1661 /* KSYPushVideoStream */;
+			targetProxy = 13FAEF521B4E1C1D003D1661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13FAEF571B4E1C1D003D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13FAEF581B4E1C1D003D1661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13FAEF5A1B4E1C1D003D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KSYVideoPicker/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		13FAEF5B1B4E1C1D003D1661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KSYVideoPicker/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		13FAEF5D1B4E1C1D003D1661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSYPushVideoStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13FAEF5E1B4E1C1D003D1661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSYPushVideoStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FAEF401B4E1C1D003D1661 /* Build configuration list for PBXProject "KSYPushVideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FAEF571B4E1C1D003D1661 /* Debug */,
+				13FAEF581B4E1C1D003D1661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FAEF591B4E1C1D003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FAEF5A1B4E1C1D003D1661 /* Debug */,
+				13FAEF5B1B4E1C1D003D1661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FAEF5C1B4E1C1D003D1661 /* Build configuration list for PBXNativeTarget "KSYPushVideoStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FAEF5D1B4E1C1D003D1661 /* Debug */,
+				13FAEF5E1B4E1C1D003D1661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13FAEF3D1B4E1C1D003D1661 /* Project object */;
+}
